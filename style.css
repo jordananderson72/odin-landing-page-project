@@ -120,3 +120,15 @@ img {
     color: #1f2937;
 }
 
+.main-flex4 {
+    border: 3px solid red;
+    display: flex;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
