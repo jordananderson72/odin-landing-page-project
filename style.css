@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 .header {
@@ -13,7 +14,8 @@ body {
 
 .head-logo {
     border: 2px solid red;
-    font-size: 48px;
+    font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
     align-self: center;
 }
@@ -27,9 +29,94 @@ body {
     gap: 24px;
 }
 
-.container1 {
+.main-flex1 {
     border: 2px solid red;
     background-color: #1f2937;
-    display: flex;
-    flex-direction: column; 
+    display: flex; 
 }
+
+.awesomeblock {
+    border: 4px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold-awesome {
+    border: 2px solid rgb(0, 255, 98);
+    color: #E5E7EB;
+    font-weight: 800;
+    font-size: 48px;
+    
+}
+
+.awesome-small {
+    border: 2px solid rgb(0, 255, 55);
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+button.sign-up-top {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+
+.img-main {
+    border: 3px solid red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+ 
+}
+
+.img-main img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-flex2 {
+    border: 3px solid green;
+    display: flex;
+}
+
+.title {
+    border: 2px solid red;
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.img-contain {
+    display: flex;
+
+
+}
+.main-flex3 {
+    border: 3px solid yellow;
+    background-color: #E5E7EB;
+    display: flex;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
