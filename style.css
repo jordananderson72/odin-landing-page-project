@@ -79,8 +79,6 @@ img {
     width: 225px;
 }
 
-
-
 .img-main {
     width: 650px;
     height: 400px;
@@ -112,6 +110,7 @@ img {
 
 .img-contain {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 52px;
 
