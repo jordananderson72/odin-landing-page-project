@@ -69,8 +69,9 @@ button.sign-up-top {
 
 img {
     height: auto;
-    width: 300px;
+    width: 200px;
 }
+
 
 
 .img-main {
@@ -86,15 +87,10 @@ img {
     height: auto;
 }
 
-.text {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .main-flex2 {
     border: 3px solid green;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .title {
@@ -103,13 +99,29 @@ img {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    justify-content: center;
 }
 
 .img-contain {
     display: flex;
-
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
 
 }
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 200px;
+}
+
+.text {
+    max-width: 185px;
+}
+
+
 .main-flex3 {
     border: 3px solid yellow;
     background-color: #E5E7EB;
